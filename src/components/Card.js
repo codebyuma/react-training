@@ -10,7 +10,7 @@ const Card = ({ children, deleteCard, selectCard }) => {
       <div className="px1">{ children }</div>
       <div className="col-4 px3">
 	      <input type="checkbox" onClick={selectCard} />
-	      <Button className="right" onDelete={deleteCard}>Delete</Button>
+	      <Button className="right" callBack={deleteCard}>Delete</Button>
       </div>
       
     </div>
